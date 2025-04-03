@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookingManagerBlazorPages")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+638a07071b51f86c1fe10fbb0695b0246767132d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookingManagerBlazorPages")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookingManagerBlazorPages")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,16 +1,72 @@
 ﻿@page "/TeacherHomePage"
 @inject NavigationManager NavigationManager
+@rendermode InteractiveServer
 
-<p>@message</p>
-<button class="btn btn-primary" @onclick="GoToCreateBooking">Create Booking</button>
+<h2 class="text-center text-primary">Create New Booking</h2>
+
+<button class="btn btn-primary"
+        style="background-color: #6a5acd; border-radius: 8px; color: white;"
+        @onclick="GoToCreateBooking">
+    Create Booking
+</button>
+
+<div class="mt-3">
+    @foreach (var booking in bookings)
+    {
+        <div class="booking-container border p-3 mt-3 rounded"
+             style="border-radius: 10px; border: 1px solid #6a5acd;">
+
+            <div class="d-flex justify-content-between text-center font-weight-bold">
+                <span class="flex-fill">Booking Date</span>
+                <span class="flex-fill">Booking Slot</span>
+                <span class="flex-fill">Booking Room</span>
+                <span class="flex-fill">Booking Reason</span>
+            </div>
+
+            <div class="d-flex justify-content-between text-center mt-2">
+                <input type="date" class="form-control flex-fill mx-2"
+                       @bind="booking.Date" />
+                <select class="form-control flex-fill mx-2" @bind="booking.Slot">
+                    <option value="">Select Slot</option>
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                </select>
+                <select class="form-control flex-fill mx-2" @bind="booking.Room">
+                    <option value="">Select Room</option>
+                    <option value="Room 101">Room 101</option>
+                    <option value="Room 102">Room 102</option>
+                </select>
+                <input type="text" class="form-control flex-fill mx-2"
+                       placeholder="Enter Booking Reason"
+                       @bind="booking.Reason" />
+            </div>
+        </div>
+        <button class="btn btn-primary mt-2"
+                style="background-color: #6a5acd; border-radius: 8px; color: white;"
+                @onclick="() => SaveBooking(booking)">
+            Save
+        </button>
+    }
+</div>
 
 @code {
-    private string message = "Chưa click";
+    private List<BookingModel> bookings = new List<BookingModel>();
 
     private void GoToCreateBooking()
     {
-        message = "Button clicked!";
-        StateHasChanged(); // Cập nhật UI
-        NavigationManager.NavigateTo("/counter");
+        bookings = new List<BookingModel>(bookings) { new BookingModel() };
+        StateHasChanged();
+    }
+
+    private void SaveBooking(BookingModel booking)
+    {
+    }
+
+    private class BookingModel
+    {
+        public DateTime? Date { get; set; }
+        public string Slot { get; set; }
+        public string Room { get; set; }
+        public string Reason { get; set; }
     }
 }

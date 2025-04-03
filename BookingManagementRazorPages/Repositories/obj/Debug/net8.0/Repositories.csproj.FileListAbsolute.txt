@@ -26,3 +26,18 @@ D:\PRN222\Project\BookingManagementRazorPages\BookingManagementRazorPages\Reposi
 D:\PRN222\Project\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\PRN222\Project\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
 D:\PRN222\Project\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+D:\PRN222\BookingManagementRazorPages (1)\BookingManagementRazorPages\BookingManagementRazorPages\Repositories\obj\Debug\net8.0\ref\Repositories.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookingManagementRazorPages")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+638a07071b51f86c1fe10fbb0695b0246767132d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookingManagementRazorPages")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookingManagementRazorPages")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

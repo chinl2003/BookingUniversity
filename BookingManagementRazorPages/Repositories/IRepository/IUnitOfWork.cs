@@ -11,5 +11,14 @@ namespace Repositories.IRepository
     {
         void Save();
         IGenericRepository<User> UserRepository { get; }
+        IGenericRepository<Slot> SlotRepository { get; }
+        IGenericRepository<Room> RoomRepository { get; }
+        IGenericRepository<ApprovalHistory> ApprovalHistoryRepository { get; }
+        IGenericRepository<Booking> BookingRepository { get; }
+        IGenericRepository<BookingDetail> BookingDetailRepository { get; }
+        IGenericRepository<Campus> CampusRepository { get; }
+        IGenericRepository<Department> DepartmentRepository { get; }
+        IGenericRepository<Role> RoleRepository { get; }
+
     }
 }

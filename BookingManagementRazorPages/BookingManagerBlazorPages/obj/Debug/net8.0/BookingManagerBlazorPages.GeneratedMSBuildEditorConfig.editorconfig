@@ -62,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PRN222/BookingManagementRazorPages (1)/BookingManagementRazorPages/BookingManagementRazorPages/BookingManagerBlazorPages/Components/Pages/Homepage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lcGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PRN222/BookingManagementRazorPages (1)/BookingManagementRazorPages/BookingManagementRazorPages/BookingManagerBlazorPages/Components/Pages/TeacherHomePage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWFjaGVySG9tZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
