@@ -20,34 +20,39 @@ namespace Repositories.Repository
         }
         public IQueryable<TEntity> Entities => _dbSet;
 
-        public void Delete(object id)
+        public bool Delete(object id)
         {
             TEntity? entity = _dbSet.Find(id);
             if (entity != null)
             {
                 entity.GetType().GetProperty("DeletedAt")?.SetValue(entity, DateTime.Now);
-
                 _dbSet.Update(entity);
+                _dbContext.SaveChanges();
+                return true;
             }
-            else
-            {
-                throw new KeyNotFoundException($"Entity with ID {id} not found.");
-            }
+            return false;
         }
 
-        public void Insert(TEntity obj)
+
+        public bool Insert(TEntity obj)
         {
             _dbSet.Add(obj);
+            return _dbContext.SaveChanges() > 0;
         }
+
 
         public void Save()
         {
             _dbContext.SaveChanges();
         }
 
-        public void Update(TEntity obj)
+        public bool Update(TEntity obj)
         {
+            _dbSet.Attach(obj);
             _dbSet.Entry(obj).State = EntityState.Modified;
+            return _dbContext.SaveChanges() > 0;
         }
+
+
     }
 }

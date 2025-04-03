@@ -1,24 +1,28 @@
 {
   "Files": [
     {
-      "Id": "D:\\PRN222\\BookingManagementRazorPages (1)\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookingManagerBlazorPages.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BookingManagerBlazorPages.bundle.scp.css"
+      "Id": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagerBlazorPages\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookingManagerBlazorPages.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookingManagerBlazorPages.jcibtl3mvf.bundle.scp.css"
     },
     {
-      "Id": "D:\\PRN222\\BookingManagementRazorPages (1)\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\wwwroot\\app.css",
+      "Id": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagerBlazorPages\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\PRN222\\BookingManagementRazorPages (1)\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagerBlazorPages\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\PRN222\\BookingManagementRazorPages (1)\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagerBlazorPages\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\PRN222\\BookingManagementRazorPages (1)\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\wwwroot\\favicon.png",
+      "Id": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagerBlazorPages\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookingManagerBlazorPages.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookingManagerBlazorPages.Microsoft.AspNetCore.StaticWebAssets.props",

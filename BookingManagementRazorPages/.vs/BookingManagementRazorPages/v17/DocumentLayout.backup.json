@@ -1,74 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\",
+  "WorkspaceRootPath": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagerblazorpages\\components\\pages\\teacherhomepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|solutionrelative:bookingmanagerblazorpages\\components\\pages\\teacherhomepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\pages\\manager\\campusmanagement\\createcampuspage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|solutionrelative:bookingmanagementrazorpages\\pages\\manager\\campusmanagement\\createcampuspage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagerblazorpages\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|solutionrelative:bookingmanagerblazorpages\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\services\\service\\campusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|solutionrelative:services\\service\\campusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagerblazorpages\\components\\pages\\bookingpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|solutionrelative:bookingmanagerblazorpages\\components\\pages\\bookingpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\services\\iservice\\icampusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|solutionrelative:services\\iservice\\icampusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|solutionrelative:bookingmanagementrazorpages\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|solutionrelative:services\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\repositories\\entities\\approvalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\approvalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\repositories\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\repositories\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\repositories\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\repositories\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\repositories\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\repositories\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\repositories\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagerblazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|solutionrelative:bookingmanagerblazorpages\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\repositories\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64FEDA85-11EE-434F-B0B1-B6FA0FC094A5}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|solutionrelative:bookingmanagementrazorpages\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\services\\service\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|solutionrelative:services\\service\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagerblazorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A1B8D11-3AE6-4761-958D-1255EFA524D5}|BookingManagerBlazorPages\\BookingManagerBlazorPages.csproj|solutionrelative:bookingmanagerblazorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11D6F800-F507-4249-9E10-F5FC5E62CDA3}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\pages\\manager\\managerhomepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|solutionrelative:bookingmanagementrazorpages\\pages\\manager\\managerhomepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\pages\\manager\\managerhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|solutionrelative:bookingmanagementrazorpages\\pages\\manager\\managerhomepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|d:\\prn222\\project\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|solutionrelative:bookingmanagementrazorpages\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|d:\\prn222\\project\\bookinguniversity\\bookingmanagementrazorpages\\bookingmanagementrazorpages\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D37A0FD3-0332-4FBD-98B5-1C60D82DA871}|BookingManagementRazorPages\\BookingManagementRazorPages.csproj|solutionrelative:bookingmanagementrazorpages\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 198,
-          "SelectedChildIndex": 50,
+          "SelectedChildIndex": 48,
           "Children": [
             {
               "$type": "Bookmark",
@@ -242,220 +210,120 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "BookingManagerBlazorPages\\Components\\Pages\\Counter.razor",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages\\Counter.razor",
-              "RelativeToolTip": "BookingManagerBlazorPages\\Components\\Pages\\Counter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T06:02:05.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\Entities\\Booking.cs",
-              "RelativeDocumentMoniker": "Repositories\\Entities\\Booking.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\Entities\\Booking.cs",
-              "RelativeToolTip": "Repositories\\Entities\\Booking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Repositories\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repository\\GenericRepository.cs",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Repositories\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Repositories\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:32:14.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApprovalHistory.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\Entities\\ApprovalHistory.cs",
-              "RelativeDocumentMoniker": "Repositories\\Entities\\ApprovalHistory.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\Entities\\ApprovalHistory.cs",
-              "RelativeToolTip": "Repositories\\Entities\\ApprovalHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:32:13.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Services\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\Service\\UserService.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Services\\Service\\UserService.cs",
-              "RelativeToolTip": "Services\\Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:29:39.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\IRepository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IRepository\\IGenericRepository.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\IRepository\\IGenericRepository.cs",
-              "RelativeToolTip": "Repositories\\IRepository\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:29:13.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\IRepository\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Repositories\\IRepository\\IUnitOfWork.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\IRepository\\IUnitOfWork.cs",
-              "RelativeToolTip": "Repositories\\IRepository\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:28:24.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repository\\UnitOfWork.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "Repositories\\Repository\\UnitOfWork.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:28:38.746Z",
+              "WhenOpened": "2025-04-03T16:55:22.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\Repository\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Repository\\GenericRepository.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\Repositories\\Repository\\GenericRepository.cs",
-              "RelativeToolTip": "Repositories\\Repository\\GenericRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T05:28:33.035Z",
+              "Title": "Services",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T16:53:20.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\appsettings.json",
-              "RelativeDocumentMoniker": "BookingManagerBlazorPages\\appsettings.json",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\appsettings.json",
-              "RelativeToolTip": "BookingManagerBlazorPages\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-03T05:09:17.198Z",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Repositories\\IRepository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Repositories\\IRepository\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\IRepository\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:53:13.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Repositories\\IRepository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository\\IGenericRepository.cs",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Repositories\\IRepository\\IGenericRepository.cs",
+              "RelativeToolTip": "Repositories\\IRepository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:53:09.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CampusService.cs",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Services\\Service\\CampusService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\CampusService.cs",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Services\\Service\\CampusService.cs",
+              "RelativeToolTip": "Services\\Service\\CampusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:51:55.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Services\\Service\\RoomService.cs",
+              "RelativeDocumentMoniker": "Services\\Service\\RoomService.cs",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Services\\Service\\RoomService.cs",
+              "RelativeToolTip": "Services\\Service\\RoomService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:51:34.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "BookingManagementRazorPages\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "BookingManagementRazorPages\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:50:57.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.razor",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages\\BookingPages\\Create.razor",
-              "RelativeDocumentMoniker": "BookingManagerBlazorPages\\Components\\Pages\\BookingPages\\Create.razor",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages\\BookingPages\\Create.razor",
-              "RelativeToolTip": "BookingManagerBlazorPages\\Components\\Pages\\BookingPages\\Create.razor",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T04:55:13.259Z",
+              "Title": "ICampusService.cs",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Services\\IService\\ICampusService.cs",
+              "RelativeDocumentMoniker": "Services\\IService\\ICampusService.cs",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\Services\\IService\\ICampusService.cs",
+              "RelativeToolTip": "Services\\IService\\ICampusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:50:06.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TeacherHomePage.razor",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages\\TeacherHomePage.razor",
-              "RelativeDocumentMoniker": "BookingManagerBlazorPages\\Components\\Pages\\TeacherHomePage.razor",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages\\TeacherHomePage.razor",
-              "RelativeToolTip": "BookingManagerBlazorPages\\Components\\Pages\\TeacherHomePage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T10:28:20.463Z",
+              "Title": "CreateCampusPage.cshtml.cs",
+              "DocumentMoniker": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Manager\\CampusManagement\\CreateCampusPage.cshtml.cs",
+              "RelativeDocumentMoniker": "BookingManagementRazorPages\\Pages\\Manager\\CampusManagement\\CreateCampusPage.cshtml.cs",
+              "ToolTip": "D:\\PRN222\\Project\\BookingUniversity\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Manager\\CampusManagement\\CreateCampusPage.cshtml.cs",
+              "RelativeToolTip": "BookingManagementRazorPages\\Pages\\Manager\\CampusManagement\\CreateCampusPage.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAjwC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:45:17.601Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Error.cshtml",
-              "RelativeDocumentMoniker": "BookingManagementRazorPages\\Pages\\Error.cshtml",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Error.cshtml",
-              "RelativeToolTip": "BookingManagementRazorPages\\Pages\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T10:25:27.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Program.cs",
-              "RelativeDocumentMoniker": "BookingManagerBlazorPages\\Program.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Program.cs",
-              "RelativeToolTip": "BookingManagerBlazorPages\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAwwA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:20:09.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ManagerHomePage.cshtml.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Manager\\ManagerHomePage.cshtml.cs",
-              "RelativeDocumentMoniker": "BookingManagementRazorPages\\Pages\\Manager\\ManagerHomePage.cshtml.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Manager\\ManagerHomePage.cshtml.cs",
-              "RelativeToolTip": "BookingManagementRazorPages\\Pages\\Manager\\ManagerHomePage.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:15:51.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "BookingManagementRazorPages\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "BookingManagementRazorPages\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAADUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:07:55.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ManagerHomePage.cshtml",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Manager\\ManagerHomePage.cshtml",
-              "RelativeDocumentMoniker": "BookingManagementRazorPages\\Pages\\Manager\\ManagerHomePage.cshtml",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Pages\\Manager\\ManagerHomePage.cshtml",
-              "RelativeToolTip": "BookingManagementRazorPages\\Pages\\Manager\\ManagerHomePage.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-02T10:07:05.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Program.cs",
-              "RelativeDocumentMoniker": "BookingManagementRazorPages\\Program.cs",
-              "ToolTip": "D:\\PRN222\\Project\\BookingManagementRazorPages\\BookingManagementRazorPages\\BookingManagementRazorPages\\Program.cs",
-              "RelativeToolTip": "BookingManagementRazorPages\\Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:06:19.893Z"
             }
           ]
         },
@@ -502,6 +370,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         },
