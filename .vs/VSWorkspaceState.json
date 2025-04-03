@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BookingManagementRazorPages",
+    "\\BookingManagementRazorPages\\BookingManagerBlazorPages",
+    "\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components",
+    "\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages"
+  ],
+  "SelectedNode": "\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages\\TeacherHomePage.razor",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,8 @@
+﻿@page
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize(Policy = "Manager")]
+@model BookingManagementRazorPages.Pages.Manager.ManagerHomePageModel
+
+<h1>Manager Home Page</h1>
+
+<p>This page is accessible only by Managers (Role 1).</p>

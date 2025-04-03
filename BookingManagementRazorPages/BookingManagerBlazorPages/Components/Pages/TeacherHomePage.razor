@@ -1,0 +1,16 @@
+﻿@page "/TeacherHomePage"
+@inject NavigationManager NavigationManager
+
+<p>@message</p>
+<button class="btn btn-primary" @onclick="GoToCreateBooking">Create Booking</button>
+
+@code {
+    private string message = "Chưa click";
+
+    private void GoToCreateBooking()
+    {
+        message = "Button clicked!";
+        StateHasChanged(); // Cập nhật UI
+        NavigationManager.NavigateTo("/counter");
+    }
+}
