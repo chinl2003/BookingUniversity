@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Entities;
+using Repositories.IRepository;
+using Repositories.Repository;
+using Services.IService;
+using Services.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<BookingManagementContext>(options => options.UseSqlServer("DefaultConnectionString"));
@@ -9,6 +13,11 @@ builder.Services.AddDbContext<BookingManagementContext>(options => options.UseSq
 builder.Services.AddQuickGridEntityFrameworkAdapter();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ISlotService, SlotService>();
+builder.Services.AddScoped<IRoomService, RoomService>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

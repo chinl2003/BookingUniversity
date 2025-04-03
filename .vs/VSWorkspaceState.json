@@ -4,8 +4,10 @@
     "\\BookingManagementRazorPages",
     "\\BookingManagementRazorPages\\BookingManagerBlazorPages",
     "\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components",
-    "\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages"
+    "\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages",
+    "\\BookingManagementRazorPages\\Repositories",
+    "\\BookingManagementRazorPages\\Repositories\\Repository"
   ],
-  "SelectedNode": "\\BookingManagementRazorPages\\BookingManagerBlazorPages\\Components\\Pages\\TeacherHomePage.razor",
+  "SelectedNode": "\\BookingManagementRazorPages\\Repositories\\Repository\\UnitOfWork.cs",
   "PreviewInSolutionExplorer": false
 }

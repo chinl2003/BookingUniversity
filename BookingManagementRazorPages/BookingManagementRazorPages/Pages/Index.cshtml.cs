@@ -45,7 +45,6 @@ namespace BookingManagementRazorPages.Pages
             }
             else
             {
-                // Tạo Claims
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, user.FullName),

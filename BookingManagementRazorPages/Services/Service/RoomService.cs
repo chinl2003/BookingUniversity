@@ -18,11 +18,35 @@ namespace Services.Service
         }
         public List<Room> GetRooms()
         {
-            List<Room> room = new List<Room>();
-            room = _unitOfWork.RoomRepository.Entities
-                .Where(r => r.DeletedAt == null)
+            var approvedBookingDetailIds = _unitOfWork.ApprovalHistoryRepository.Entities
+                .Where(ah => ah.ApprovalByManager == true)
+                .Select(ah => ah.BookingDetailId)
+                .Distinct()
                 .ToList();
+
+            var roomIds = _unitOfWork.BookingDetailRepository.Entities
+                .Where(bd => approvedBookingDetailIds.Contains(bd.Id) && bd.DeletedAt == null)
+                .Select(bd => bd.RoomId)
+                .Distinct()
+                .ToList();
+
+            List<Room> room = new List<Room>();
+
+            if (roomIds.Count == 0)
+            {
+                room = _unitOfWork.RoomRepository.Entities
+                    .Where(r => r.DeletedAt == null)
+                    .ToList();
+            }
+            else
+            {
+                room = _unitOfWork.RoomRepository.Entities
+                    .Where(r => roomIds.Contains(r.Id) && r.DeletedAt == null)
+                    .ToList();
+            }
+
             return room;
         }
+
     }
 }

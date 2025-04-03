@@ -1,20 +1,30 @@
 ﻿@page "/TeacherHomePage"
 @inject NavigationManager NavigationManager
+@using Services.IService
+@using Repositories.Entities
+@inject IRoomService RoomService
+@inject ISlotService SlotService
 @rendermode InteractiveServer
 
 <h2 class="text-center text-primary">Create New Booking</h2>
 
-<button class="btn btn-primary"
-        style="background-color: #6a5acd; border-radius: 8px; color: white;"
-        @onclick="GoToCreateBooking">
-    Create Booking
-</button>
+<div class="d-flex align-items-center">
+    <button class="btn btn-primary custom-btn" @onclick="GoToCreateBooking">
+        Create Booking
+    </button>
+    @if (showError)
+    {
+        <span class="text-danger ml-5 font-italic">You don't have permission to create over 5 booking detail in once time</span>
+    }
+</div>
 
 <div class="mt-3">
     @foreach (var booking in bookings)
     {
-        <div class="booking-container border p-3 mt-3 rounded"
+        <div class="booking-container border p-3 mt-3 rounded position-relative"
              style="border-radius: 10px; border: 1px solid #6a5acd;">
+
+            <button class="close-btn" @onclick="() => RemoveBooking(booking)">x</button>
 
             <div class="d-flex justify-content-between text-center font-weight-bold">
                 <span class="flex-fill">Booking Date</span>
@@ -24,41 +34,104 @@
             </div>
 
             <div class="d-flex justify-content-between text-center mt-2">
-                <input type="date" class="form-control flex-fill mx-2"
-                       @bind="booking.Date" />
+                <input type="date" class="form-control flex-fill mx-2" @bind="booking.Date" />
                 <select class="form-control flex-fill mx-2" @bind="booking.Slot">
                     <option value="">Select Slot</option>
-                    <option value="Morning">Morning</option>
-                    <option value="Afternoon">Afternoon</option>
+                    @foreach (var slot in slots)
+                    {
+                        <option value="@slot.Id">@slot.Id</option>
+                    }
                 </select>
+
                 <select class="form-control flex-fill mx-2" @bind="booking.Room">
                     <option value="">Select Room</option>
-                    <option value="Room 101">Room 101</option>
-                    <option value="Room 102">Room 102</option>
+                    @foreach (var room in rooms)
+                    {
+                        <option value="@room.Name">@room.Name</option>
+                    }
                 </select>
-                <input type="text" class="form-control flex-fill mx-2"
-                       placeholder="Enter Booking Reason"
-                       @bind="booking.Reason" />
+                <input type="text" class="form-control flex-fill mx-2" placeholder="Enter Booking Reason" @bind="booking.Reason" />
             </div>
         </div>
-        <button class="btn btn-primary mt-2"
-                style="background-color: #6a5acd; border-radius: 8px; color: white;"
-                @onclick="() => SaveBooking(booking)">
-            Save
-        </button>
+    }
+
+    @if (bookings.Any())
+    {
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-primary mt-2 custom-btn" @onclick="SaveBooking">
+                Save
+            </button>
+        </div>
     }
 </div>
 
+<style>
+    .close-btn {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        border: none;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .close-btn:hover {
+            background-color: black;
+            color: white;
+        }
+
+    .custom-btn {
+        background-color: #6a5acd;
+        border-radius: 8px;
+        color: white;
+        transition: opacity 0.3s;
+        cursor: pointer;
+    }
+
+        .custom-btn:hover {
+            opacity: 0.7;
+        }
+</style>
+
 @code {
     private List<BookingModel> bookings = new List<BookingModel>();
+    private List<Room> rooms = new List<Room>();
+    private List<Slot> slots = new List<Slot>();
+    private bool showError = false;
+
+    protected override void OnInitialized()
+    {
+        rooms = RoomService.GetRooms();
+        slots = SlotService.GetSlots();
+    }
 
     private void GoToCreateBooking()
     {
-        bookings = new List<BookingModel>(bookings) { new BookingModel() };
-        StateHasChanged();
+        if (bookings.Count >= 5)
+        {
+            showError = true;
+        }
+        else
+        {
+            showError = false;
+            bookings.Add(new BookingModel());
+        }
     }
 
-    private void SaveBooking(BookingModel booking)
+    private void RemoveBooking(BookingModel booking)
+    {
+        bookings.Remove(booking);
+        if (bookings.Count < 5)
+        {
+            showError = false;
+        }
+    }
+
+    private void SaveBooking()
     {
     }
 
