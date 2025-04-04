@@ -18,6 +18,7 @@ public class Program
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
         builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+        builder.Services.AddScoped<IEmailService, EmailService>();
 
         // Cấu hình Authentication (Cookie Authentication)
         builder.Services.AddAuthentication("Cookies")

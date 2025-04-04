@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Repositories.Entities;
+using Services.IService;
+using Services.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<BookingManagementContext>(options => options.UseSqlServer("DefaultConnectionString"));
@@ -15,7 +17,7 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddHttpContextAccessor();
-
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 var app = builder.Build();
 
